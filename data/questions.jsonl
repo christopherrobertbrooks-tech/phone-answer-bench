@@ -1,0 +1,115 @@
+{"id": "a001", "kind": "know", "say": "Who wrote Frankenstein?", "keys": [["shelley"]]}
+{"id": "a002", "kind": "know", "say": "What's the capital of Australia?", "keys": [["canberra"]]}
+{"id": "a003", "kind": "know", "say": "How many legs does a spider have?", "keys": [["\\b8\\b", "eight"]]}
+{"id": "a004", "kind": "know", "say": "What's the boiling point of water in Fahrenheit?", "keys": [["212"]]}
+{"id": "a005", "kind": "know", "say": "Who painted the Mona Lisa?", "keys": [["leonardo", "da vinci"]]}
+{"id": "a006", "kind": "know", "say": "What planet is closest to the sun?", "keys": [["mercury"]]}
+{"id": "a007", "kind": "know", "say": "How many ounces are in a pound?", "keys": [["\\b16\\b", "sixteen"]]}
+{"id": "a008", "kind": "know", "say": "What's the largest ocean?", "keys": [["pacific"]]}
+{"id": "a009", "kind": "know", "say": "Who was the first person to walk on the moon?", "keys": [["armstrong"]]}
+{"id": "a010", "kind": "know", "say": "What year did World War Two end?", "keys": [["1945"]]}
+{"id": "a011", "kind": "know", "say": "What's the chemical symbol for gold?", "keys": [["\\bau\\b"]]}
+{"id": "a012", "kind": "know", "say": "How many states are in the US?", "keys": [["\\b50\\b", "fifty"]]}
+{"id": "a013", "kind": "know", "say": "What language do they speak in Brazil?", "keys": [["portuguese"]]}
+{"id": "a014", "kind": "know", "say": "What's the tallest mountain in the world?", "keys": [["everest"]]}
+{"id": "a015", "kind": "know", "say": "Who invented the telephone?", "keys": [["bell"]]}
+{"id": "a016", "kind": "know", "say": "How many days are in a leap year?", "keys": [["366"]]}
+{"id": "a017", "kind": "know", "say": "What's the freezing point of water in Celsius?", "keys": [["\\b0\\b", "zero"]]}
+{"id": "a018", "kind": "know", "say": "What does DNA stand for?", "keys": [["deoxyribonucleic"]]}
+{"id": "a019", "kind": "know", "say": "What's the longest river in the world?", "keys": [["nile", "amazon"]]}
+{"id": "a020", "kind": "know", "say": "How many bones are in the adult human body?", "keys": [["206"]]}
+{"id": "a021", "kind": "know", "say": "What's the square root of 144?", "keys": [["\\b12\\b", "twelve"]]}
+{"id": "a022", "kind": "know", "say": "Who wrote Romeo and Juliet?", "keys": [["shakespeare"]]}
+{"id": "a023", "kind": "know", "say": "Roughly how fast does light travel?", "keys": [["299,792", "\\b(186|299|300)[, ]?\\d{3}\\b", "\\b(186|300) thousand\\b", "670 million", "3\\s?(x|\u00d7)\\s?10"]]}
+{"id": "a024", "kind": "know", "say": "What's the capital of Canada?", "keys": [["ottawa"]]}
+{"id": "a025", "kind": "know", "say": "How many minutes are in a day?", "keys": [["1,440", "1440"]]}
+{"id": "a026", "kind": "know", "say": "What gas do plants take in from the air?", "keys": [["carbon dioxide", "\\bco2\\b", "co\u2082"]]}
+{"id": "a027", "kind": "know", "say": "Who was the first president of the United States?", "keys": [["washington"]]}
+{"id": "a028", "kind": "know", "say": "What's the hardest natural substance?", "keys": [["diamond"]]}
+{"id": "a029", "kind": "know", "say": "How many continents are there?", "keys": [["seven", "\\b7\\b"]]}
+{"id": "a030", "kind": "know", "say": "What year did the Titanic sink?", "keys": [["1912"]]}
+{"id": "a031", "kind": "howto", "say": "How do I hard boil an egg?", "keys": [["boil"], ["minute"]]}
+{"id": "a032", "kind": "howto", "say": "How do I get a red wine stain out of a shirt?", "keys": [["cold water", "club soda", "salt", "baking soda", "dish soap", "detergent", "vinegar", "peroxide", "stain remover"], ["blot", "rinse", "soak", "dab", "wash"]]}
+{"id": "a033", "kind": "howto", "say": "How do I unclog a drain without chemicals?", "keys": [["plunger", "baking soda", "boiling water", "snake", "vinegar", "hot water"]]}
+{"id": "a034", "kind": "howto", "say": "How long should I cook spaghetti?", "keys": [["minute"], ["\\b(7|8|9|10|11|12)\\b", "eight", "nine", "ten", "eleven", "twelve"]]}
+{"id": "a035", "kind": "howto", "say": "What's a good way to fall asleep faster?", "keys": [["screen", "dark", "breath", "routine", "caffeine", "cool", "relax", "schedule", "phone", "light"]]}
+{"id": "a036", "kind": "howto", "say": "How do I jump start a car?", "keys": [["cable"], ["red", "positive"], ["black", "negative", "ground", "unpainted", "metal"]]}
+{"id": "a037", "kind": "howto", "say": "How do I convert Celsius to Fahrenheit?", "keys": [["1\\.8", "9/5", "nine fifths", "nine-fifths"], ["32"]]}
+{"id": "a038", "kind": "howto", "say": "How often should I water a cactus?", "keys": [["week", "month", "dry"]]}
+{"id": "a039", "kind": "howto", "say": "How do I take a screenshot on an Android phone?", "keys": [["power"], ["volume"]]}
+{"id": "a040", "kind": "howto", "say": "How do I cook rice on the stove?", "keys": [["water"], ["simmer", "boil", "cover", "low heat", "lid"]]}
+{"id": "a041", "kind": "howto", "say": "What should I do if I burn my finger on the stove?", "keys": [["cool", "cold"], ["water"]]}
+{"id": "a042", "kind": "howto", "say": "How do I clean a cast iron pan?", "keys": [["oil", "dry", "season"]]}
+{"id": "a043", "kind": "howto", "say": "How do I get rid of hiccups?", "keys": [["water", "breath", "hold"]]}
+{"id": "a044", "kind": "howto", "say": "How can I make my phone battery last longer?", "keys": [["brightness", "background", "power sav", "battery sav", "low power", "location", "bluetooth", "wi-fi", "wifi", "dark mode", "refresh rate"]]}
+{"id": "a045", "kind": "howto", "say": "How do I get a stripped screw out?", "keys": [["rubber band", "extractor", "pliers", "drill", "bigger bit", "larger bit", "glue", "hammer", "steel wool", "valve grinding"]]}
+{"id": "a046", "kind": "howto", "say": "How long should a steak rest after cooking?", "keys": [["minute"], ["\\b(3|4|5|6|7|8|9|10)\\b", "five", "ten", "few"]]}
+{"id": "a047", "kind": "howto", "say": "How do I work out a 20 percent tip?", "keys": [["10\\s?%", "ten percent", "10 percent", "double", "decimal", "0\\.2", "multiply", "times", "divide by five", "divide by 5", "fifth"]]}
+{"id": "a048", "kind": "howto", "say": "How do I keep a cut avocado from turning brown?", "keys": [["lemon", "lime", "plastic wrap", "onion", "airtight", "water", "cling"]]}
+{"id": "a049", "kind": "howto", "say": "How do I reset a tripped breaker?", "keys": [["\\boff\\b"], ["\\bon\\b"]]}
+{"id": "a050", "kind": "howto", "say": "What's the safest way to thaw frozen chicken?", "keys": [["fridge", "refrigerator", "cold water"]]}
+{"id": "a051", "kind": "fresh", "say": "What's the weather tomorrow?", "keys": []}
+{"id": "a052", "kind": "fresh", "say": "Who won the Bears game last night?", "keys": []}
+{"id": "a053", "kind": "fresh", "say": "What's the price of Bitcoin right now?", "keys": []}
+{"id": "a054", "kind": "fresh", "say": "What time does Home Depot close today?", "keys": []}
+{"id": "a055", "kind": "fresh", "say": "What's the latest news about NASA?", "keys": []}
+{"id": "a056", "kind": "fresh", "say": "Is traffic bad on the highway right now?", "keys": []}
+{"id": "a057", "kind": "fresh", "say": "What movies are playing tonight?", "keys": []}
+{"id": "a058", "kind": "fresh", "say": "What's Nvidia's stock price?", "keys": []}
+{"id": "a059", "kind": "fresh", "say": "When does the next iPhone come out?", "keys": []}
+{"id": "a060", "kind": "fresh", "say": "What's the exchange rate from dollars to euros today?", "keys": []}
+{"id": "a061", "kind": "fresh", "say": "Is it going to snow this weekend?", "keys": []}
+{"id": "a062", "kind": "fresh", "say": "What's in the news today?", "keys": []}
+{"id": "a063", "kind": "fresh", "say": "Who's leading the NFL MVP race this year?", "keys": []}
+{"id": "a064", "kind": "fresh", "say": "Are there any storms coming this week?", "keys": []}
+{"id": "a065", "kind": "fresh", "say": "What are gas prices near me?", "keys": []}
+{"id": "a066", "kind": "fresh", "say": "Did the new Zelda game come out yet?", "keys": []}
+{"id": "a067", "kind": "fresh", "say": "How much is a PS5 right now?", "keys": []}
+{"id": "a068", "kind": "fresh", "say": "What's the score of the Cubs game?", "keys": []}
+{"id": "a069", "kind": "fresh", "say": "What time is sunset today?", "keys": []}
+{"id": "a070", "kind": "fresh", "say": "What's the newest version of Android?", "keys": []}
+{"id": "a071", "kind": "result", "say": "What's the weather tomorrow?", "keys": [["64"], ["sun"]], "query": "weather tomorrow", "result": "Forecast for Thursday, October 15: mostly sunny, high 64\u00b0F, low 47\u00b0F, winds NW at 10 mph, 10% chance of rain."}
+{"id": "a072", "kind": "result", "say": "Who won the Bears game last night?", "keys": [["bears\\b.{0,20}\\b(won|win|beat|defeated)", "\\b27\\b.{0,20}\\b24\\b"]], "query": "Bears game score", "result": "Final (OT): Chicago Bears 27, Detroit Lions 24. Caleb Williams threw for 298 yards and two touchdowns."}
+{"id": "a073", "kind": "result", "say": "What time does Home Depot close today?", "keys": [["\\b9\\b", "nine", "9:00"]], "query": "Home Depot hours today", "result": "The Home Depot, Elmhurst IL. Open today 6:00 AM to 9:00 PM."}
+{"id": "a074", "kind": "result", "say": "What's the price of Bitcoin right now?", "keys": [["68"]], "query": "bitcoin price", "result": "Bitcoin (BTC): $68,412.37 USD, up 1.8% in the last 24 hours."}
+{"id": "a075", "kind": "result", "say": "How much is a PS5 right now?", "keys": [["449"]], "query": "PS5 price", "result": "PlayStation 5 Slim Digital Edition: $449.99 at Best Buy (sale ends Sunday). Regular price $499.99."}
+{"id": "a076", "kind": "result", "say": "What movies are playing tonight?", "keys": [["starfall", "long walk home", "paper kites"]], "query": "movies tonight", "result": "AMC Yorktown 17, tonight: The Long Walk Home (7:10, 9:45), Starfall (6:30, 9:00), Paper Kites (7:45)."}
+{"id": "a077", "kind": "result", "say": "Is it going to snow this weekend?", "keys": [["no snow", "not (going to |expected to )?snow", "won'?t snow", "isn'?t (going to |expected to )?snow", "rain", "cloud"]], "query": "snow this weekend", "result": "Weekend outlook: Saturday rain, high 41\u00b0F. Sunday cloudy, high 38\u00b0F. No snow expected."}
+{"id": "a078", "kind": "result", "say": "What's the exchange rate from dollars to euros today?", "keys": [["0\\.92"]], "query": "dollar to euro", "result": "1 USD = 0.9214 EUR (mid-market rate, 10:42 UTC)."}
+{"id": "a079", "kind": "result", "say": "What are gas prices near me?", "keys": [["3\\.29"]], "query": "gas prices near me", "result": "Cheapest regular near you: Speedway, 410 N York Rd, $3.29/gal. Shell, 120 W Lake St, $3.45/gal."}
+{"id": "a080", "kind": "result", "say": "What's the phone number for Luigi's Pizza?", "keys": [["555", "0148", "zero one four eight"]], "query": "Luigi's Pizza phone number", "result": "Luigi's Pizzeria, 1420 W Roosevelt Rd. Phone (630) 555-0148. Open until 10 PM."}
+{"id": "a081", "kind": "result", "say": "How long is the drive to Milwaukee?", "keys": [["38"]], "query": "drive time to Milwaukee", "result": "Current traffic: 1 hr 38 min (92 mi) via I-94 W."}
+{"id": "a082", "kind": "result", "say": "What's the score of the Cubs game?", "keys": [["cubs"], ["\\b4\\b", "four"], ["\\b2\\b", "two"]], "query": "Cubs score", "result": "Bottom of the 7th: Cubs 4, Cardinals 2."}
+{"id": "a083", "kind": "result", "say": "What's the air quality today?", "keys": [["42", "good"]], "query": "air quality today", "result": "Air quality index 42 (Good). Main pollutant: PM2.5."}
+{"id": "a084", "kind": "result", "say": "Who's playing at the Riverside Theater this weekend?", "keys": [["lumineers"]], "query": "Riverside Theater this weekend", "result": "Riverside Theater: Saturday, The Lumineers (8 PM). Sunday, comedy night with Ellie Park (7 PM)."}
+{"id": "a085", "kind": "result", "say": "When does the library close today?", "keys": [["\\b8\\b", "eight", "8:00"]], "query": "library hours", "result": "Elmhurst Public Library, hours today: 9:00 AM to 8:00 PM."}
+{"id": "a086", "kind": "result", "say": "What's the newest version of Android?", "keys": [["17", "seventeen"]], "query": "latest Android version", "result": "Android 17 is the latest stable release, rolling out to Pixel phones since June 2026."}
+{"id": "a087", "kind": "result", "say": "Is the post office open on Monday?", "keys": [["closed", "holiday", "columbus", "indigenous", "not open", "isn'?t open", "won'?t be open"]], "query": "post office open Monday", "result": "Monday, October 12 is Columbus Day / Indigenous Peoples' Day, a federal holiday. Post offices are closed and there is no regular mail delivery."}
+{"id": "a088", "kind": "result", "say": "How much does the new Pixel cost?", "keys": [["799"]], "query": "new Pixel price", "result": "Pixel 11 starts at $799. Pixel 11 Pro starts at $999."}
+{"id": "a089", "kind": "result", "say": "What's the latest news about NASA?", "keys": [["artemis"]], "query": "NASA news", "result": "NASA's Artemis III crew finished its final dress rehearsal at Kennedy Space Center on Monday, ahead of the launch window opening next month."}
+{"id": "a090", "kind": "result", "say": "What time is sunset today?", "keys": [["6:14", "six fourteen", "6 14"]], "query": "sunset time today", "result": "Sunset today in Elmhurst, IL: 6:14 PM. Sunrise tomorrow: 7:05 AM."}
+{"id": "a091", "kind": "followup", "say": "How old was she when she wrote it?", "keys": [["18", "19", "20", "eighteen", "nineteen", "twenty"]], "history": ["Who wrote Frankenstein?", "Mary Shelley wrote Frankenstein. It was published in 1818."]}
+{"id": "a092", "kind": "followup", "say": "How many people live there?", "keys": [["million"]], "history": ["What's the capital of Japan?", "Tokyo."]}
+{"id": "a093", "kind": "followup", "say": "What else did he paint?", "keys": [["last supper", "vitruvian", "ermine", "annunciation", "salvator mundi", "virgin of the rocks", "ginevra", "saint jerome", "st. jerome"]], "history": ["Who painted the Mona Lisa?", "Leonardo da Vinci."]}
+{"id": "a094", "kind": "followup", "say": "What about soft boiled?", "keys": [["minute"], ["\\b(4|5|6|7)\\b", "four", "five", "six", "seven"]], "history": ["How do I hard boil an egg?", "Put the eggs in cold water, bring it to a boil, simmer 10 to 12 minutes, then move them to ice water."]}
+{"id": "a095", "kind": "followup", "say": "Where is it?", "keys": [["nepal", "himalaya", "tibet", "china"]], "history": ["What's the tallest mountain in the world?", "Mount Everest, about 29,032 feet high."]}
+{"id": "a096", "kind": "followup", "say": "Who went with him?", "keys": [["aldrin", "buzz"]], "history": ["Who was the first person on the moon?", "Neil Armstrong, in July 1969."]}
+{"id": "a097", "kind": "followup", "say": "What about eggs in baking?", "keys": [["banana", "applesauce", "flax", "yogurt", "chia", "aquafaba", "vinegar"]], "history": ["What's a good substitute for buttermilk?", "Mix a cup of milk with a tablespoon of lemon juice or white vinegar and let it sit for five minutes."]}
+{"id": "a098", "kind": "followup", "say": "And the sun?", "keys": [["\\b93\\b", "\\b150\\b", "ninety-three", "ninety three"]], "history": ["How far away is the moon?", "About 239,000 miles on average."]}
+{"id": "a099", "kind": "followup", "say": "When was he born?", "keys": [["1564"]], "history": ["Who wrote Romeo and Juliet?", "William Shakespeare."]}
+{"id": "a100", "kind": "followup", "say": "Is it bigger than Saturn?", "keys": [["yes", "larger", "bigger"]], "history": ["What's the largest planet?", "Jupiter."]}
+{"id": "a101", "kind": "followup", "say": "Is it different in Denver?", "keys": [["lower", "less", "202", "203", "altitude"]], "history": ["What's the boiling point of water?", "212 degrees Fahrenheit, or 100 Celsius, at sea level."]}
+{"id": "a102", "kind": "followup", "say": "What year?", "keys": [["1879", "1880", "1878"]], "history": ["Who invented the light bulb?", "Thomas Edison is usually credited, though Joseph Swan and others worked on it too."]}
+{"id": "a103", "kind": "followup", "say": "What province is it in?", "keys": [["ontario"]], "history": ["What's the capital of Canada?", "Ottawa."]}
+{"id": "a104", "kind": "followup", "say": "And in a quart?", "keys": [["32", "thirty-two", "thirty two"]], "history": ["How many ounces are in a cup?", "Eight fluid ounces."]}
+{"id": "a105", "kind": "followup", "say": "How many books are in the series?", "keys": [["seven", "\\b7\\b"]], "history": ["Who wrote the Harry Potter books?", "J.K. Rowling."]}
+{"id": "a106", "kind": "personal", "say": "What's my sister's birthday?", "keys": []}
+{"id": "a107", "kind": "personal", "say": "Where did I park my car?", "keys": []}
+{"id": "a108", "kind": "personal", "say": "What's my doctor's phone number?", "keys": []}
+{"id": "a109", "kind": "personal", "say": "What did I have for lunch yesterday?", "keys": []}
+{"id": "a110", "kind": "personal", "say": "What's my wifi password?", "keys": []}
+{"id": "a111", "kind": "personal", "say": "How much money is in my bank account?", "keys": []}
+{"id": "a112", "kind": "personal", "say": "What's my dog's name?", "keys": []}
+{"id": "a113", "kind": "personal", "say": "What's my boss's email address?", "keys": []}
+{"id": "a114", "kind": "personal", "say": "How old is my mom?", "keys": []}
+{"id": "a115", "kind": "personal", "say": "What time did I wake up today?", "keys": []}
