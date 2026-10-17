@@ -20,6 +20,9 @@ temperature, nothing made up, and the fastest of the eight. Google's Gemma 4 E4B
 
 "Made up" is counted on the greedy run. Full tables, per question kind, are under [Results](#results).
 
+**Update, 2026-10-17: six more models** -- Meta's MobileLLM-Pro and four MobileMoE models, and NVIDIA's Nemotron Labs
+Dory 4B. None beats Ministral; the best, MobileMoE-L, scores 103. See [Six more models](#six-more-models-2026-10-17).
+
 ## The test
 
 A phone assistant's "answer brain" gets the questions that are not commands. It has to:
@@ -124,6 +127,53 @@ replies; the replies themselves never change).
   supplied search result. The spread is in `fresh` (7-20/20): whether the model searches, asks for a location, or
   answers from stale memory.
 
+## Six more models (2026-10-17)
+
+Meta's on-device models (MobileLLM-Pro, and MobileMoE at three sizes plus the 4-bit QAT version of the largest) and
+NVIDIA's Nemotron Labs Dory 1.0 4B, through the same 115 questions, greedy, one run each.
+
+| Model (maker, licence) | Run as | Right /115 | know | howto | fresh | result | followup | personal | Made up |
+|---|---|---|---|---|---|---|---|---|---|
+| MobileMoE-L (Meta, FAIR Noncommercial) | transformers, fp16 | **103** | 30 | 18 | 15 | 18 | 14 | 8 | 1 |
+| Nemotron Labs Dory 1.0 4B (NVIDIA, OpenMDW-1.1) | llama.cpp PR build, NVIDIA's Q5_K_M | **101** | 30 | 19 | 8 | 20 | 14 | 10 | 0 |
+| MobileLLM-Pro (Meta, FAIR Noncommercial) | transformers, fp16 | **101** | 24 | 17 | 20 | 20 | 14 | 6 | 0 |
+| MobileMoE-L-QAT (Meta, FAIR Noncommercial) | transformers, its INT4 weights | **87** | 26 | 5 | 13 | 19 | 14 | 10 | 0 |
+| MobileMoE-S (Meta, FAIR Noncommercial) | transformers, fp16 | **76** | 29 | 16 | 4 | 12 | 11 | 4 | 15 |
+| MobileMoE-M (Meta, FAIR Noncommercial) | transformers, fp16 | **69** | 18 | 0 | 20 | 17 | 13 | 1 | 0 |
+
+What they did:
+
+- **The MobileMoE sizes fail in opposite directions.** S answers current questions from memory (15 made up:
+  "Bitcoin's price is about $60,000", "the Cubs game is currently at 3-2"). M searches almost everything, including
+  all 20 how-to questions ("how do I hard boil an egg?") and 9 of 10 personal ones. L is the most balanced (30/30
+  knowledge) but four times said "I don't have real-time data" instead of searching, and stated "Home Depot closes
+  at 9:00 PM today" without searching.
+- **Quantization-aware training cost L 16 points.** The INT4 QAT version (2.75 GB) searched 15 of 20 how-to
+  questions and answered "I don't know" to seven questions it should have searched; it was perfect on personal ones.
+- **MobileLLM-Pro (1B) made nothing up** and was 20/20 on searching and on reading results, but searched five stable
+  facts and four personal questions, and said "86,400 minutes in a day" and "four fluid ounces" in a quart.
+- **Dory 4B made nothing up and was perfect on knowledge, results and personal questions, but would not search:** 12
+  of the 20 current questions got "I don't know your location" or "I don't have real-time data" instead of a search,
+  the same habit that put Spark-X 7th above. It is also the wordiest here (median 24 words; 7 answers over 60), and
+  the only one of the six whose licence (OpenMDW-1.1, permissive) allows commercial use.
+
+How they were run, and why it differs from the eight above:
+
+- **Meta's five could not run in llama.cpp** (custom architectures, not supported upstream as of this date), so
+  [`scripts/hf_server.py`](scripts/hf_server.py) serves them through Hugging Face transformers 4.57.1 (their code
+  predates transformers 5) on the V100, in fp16 -- full precision, which flatters them against the 4-bit GGUFs above;
+  MobileMoE-L-QAT runs from its own INT4 weights. Their chat templates have no tool-call format, so the tool is
+  described in one added sentence of the system prompt (reply `web_search("...")` to search), and a reply in that
+  form, or JSON naming the tool, becomes a real tool call ([`tests/test_hf_server.py`](tests/test_hf_server.py)).
+  MobileLLM-Pro twice searched for the example wording itself on personal questions (a miss either way).
+- **Dory ran in llama.cpp** built from NVIDIA's open pull request
+  ([ggml-org/llama.cpp#30306](https://github.com/ggml-org/llama.cpp/pull/30306), commit `43e865ec0`, not merged as of
+  this date), using NVIDIA's own Q5_K_M GGUF -- one step above the Q4_K_M used for the eight: the pull request's
+  converter expects a different config layout than the released checkpoint, so a Q4_K_M could not be made from the
+  released weights. On the V100 most of its work ran on the CPU (GPU at 3%, about 5.7 s per answer); speed is not
+  what this bench measures.
+- Replies are in [`results/oct17/`](results/oct17/); the scorer is unchanged.
+
 ## Setup
 
 - One Tesla V100 32 GB (only the scoring runs on a GPU; the model choice is for a phone's CPU/GPU later),
@@ -152,6 +202,7 @@ replies; the replies themselves never change).
 python3 -m unittest discover -s tests          # the scorer can fail before it scores anything
 LLAMA_SERVER=/path/to/llama-server scripts/run_model.sh mymodel model-Q4_K_M.gguf
 LLAMA_SERVER=/path/to/llama-server scripts/run_model.sh mymodel-s1 model.gguf --sample 0.7,0.8,20,0.0,1.5 --seed 1
+PYTHON=/path/to/venv/bin/python scripts/run_hf.sh mymodel /path/to/hf-model   # a model llama.cpp can't run (transformers)
 python3 scripts/answer_report.py mymodel        # re-score saved replies after changing the key
 python3 scripts/summarize.py                    # the tables above, from results/
 ```

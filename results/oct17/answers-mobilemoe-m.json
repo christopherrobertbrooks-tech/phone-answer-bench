@@ -1,0 +1,1724 @@
+[
+ {
+  "id": "a001",
+  "kind": "know",
+  "say": "Who wrote Frankenstein?",
+  "text": "Mary Shelley wrote Frankenstein.",
+  "search": [],
+  "outcome": "right",
+  "words": 4,
+  "seconds": 1.1,
+  "prompt_n": 182,
+  "predicted_n": 7,
+  "decode_tok_s": 6.5,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a002",
+  "kind": "know",
+  "say": "What's the capital of Australia?",
+  "text": "Can you tell me your location or the name of a city you're interested in?",
+  "search": [],
+  "outcome": "declined",
+  "words": 15,
+  "seconds": 1.22,
+  "prompt_n": 184,
+  "predicted_n": 18,
+  "decode_tok_s": 14.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a003",
+  "kind": "know",
+  "say": "How many legs does a spider have?",
+  "text": "Spiders have eight legs.",
+  "search": [],
+  "outcome": "right",
+  "words": 4,
+  "seconds": 0.58,
+  "prompt_n": 185,
+  "predicted_n": 7,
+  "decode_tok_s": 12.1,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a004",
+  "kind": "know",
+  "say": "What's the boiling point of water in Fahrenheit?",
+  "text": "The boiling point of water is 212 degrees Fahrenheit.",
+  "search": [],
+  "outcome": "right",
+  "words": 9,
+  "seconds": 0.87,
+  "prompt_n": 187,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a005",
+  "kind": "know",
+  "say": "Who painted the Mona Lisa?",
+  "text": "",
+  "search": [
+   "{\"query\": \"who painted the Mona Lisa\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.75,
+  "prompt_n": 183,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a006",
+  "kind": "know",
+  "say": "What planet is closest to the sun?",
+  "text": "Mercury is the planet closest to the Sun.",
+  "search": [],
+  "outcome": "right",
+  "words": 8,
+  "seconds": 0.81,
+  "prompt_n": 185,
+  "predicted_n": 11,
+  "decode_tok_s": 13.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a007",
+  "kind": "know",
+  "say": "How many ounces are in a pound?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how many ounces in a pound\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.81,
+  "prompt_n": 185,
+  "predicted_n": 11,
+  "decode_tok_s": 13.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a008",
+  "kind": "know",
+  "say": "What's the largest ocean?",
+  "text": "The largest ocean is the Pacific Ocean.",
+  "search": [],
+  "outcome": "right",
+  "words": 7,
+  "seconds": 0.71,
+  "prompt_n": 183,
+  "predicted_n": 9,
+  "decode_tok_s": 12.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a009",
+  "kind": "know",
+  "say": "Who was the first person to walk on the moon?",
+  "text": "Neil Armstrong.",
+  "search": [],
+  "outcome": "right",
+  "words": 2,
+  "seconds": 0.41,
+  "prompt_n": 188,
+  "predicted_n": 4,
+  "decode_tok_s": 9.9,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a010",
+  "kind": "know",
+  "say": "What year did World War Two end?",
+  "text": "",
+  "search": [
+   "{\"query\": \"when did world war two end\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.81,
+  "prompt_n": 185,
+  "predicted_n": 11,
+  "decode_tok_s": 13.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a011",
+  "kind": "know",
+  "say": "What's the chemical symbol for gold?",
+  "text": "",
+  "search": [
+   "{\"query\": \"chemical symbol for gold\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.7,
+  "prompt_n": 185,
+  "predicted_n": 9,
+  "decode_tok_s": 12.9,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a012",
+  "kind": "know",
+  "say": "How many states are in the US?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how many states are in the US\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.87,
+  "prompt_n": 185,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a013",
+  "kind": "know",
+  "say": "What language do they speak in Brazil?",
+  "text": "Brazilian Portuguese is the official language of Brazil.",
+  "search": [],
+  "outcome": "right",
+  "words": 8,
+  "seconds": 0.81,
+  "prompt_n": 185,
+  "predicted_n": 11,
+  "decode_tok_s": 13.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a014",
+  "kind": "know",
+  "say": "What's the tallest mountain in the world?",
+  "text": "",
+  "search": [
+   "{\"query\": \"tallest mountain in the world\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.81,
+  "prompt_n": 186,
+  "predicted_n": 11,
+  "decode_tok_s": 13.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a015",
+  "kind": "know",
+  "say": "Who invented the telephone?",
+  "text": "Alexander Graham Bell is credited with inventing the telephone.",
+  "search": [],
+  "outcome": "right",
+  "words": 9,
+  "seconds": 0.87,
+  "prompt_n": 182,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a016",
+  "kind": "know",
+  "say": "How many days are in a leap year?",
+  "text": "A leap year has 366 days.",
+  "search": [],
+  "outcome": "right",
+  "words": 6,
+  "seconds": 0.7,
+  "prompt_n": 186,
+  "predicted_n": 9,
+  "decode_tok_s": 12.9,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a017",
+  "kind": "know",
+  "say": "What's the freezing point of water in Celsius?",
+  "text": "The freezing point of water is 0 degrees Celsius.",
+  "search": [],
+  "outcome": "right",
+  "words": 9,
+  "seconds": 0.87,
+  "prompt_n": 187,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a018",
+  "kind": "know",
+  "say": "What does DNA stand for?",
+  "text": "DNA stands for deoxyribonucleic acid.",
+  "search": [],
+  "outcome": "right",
+  "words": 5,
+  "seconds": 0.87,
+  "prompt_n": 183,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a019",
+  "kind": "know",
+  "say": "What's the longest river in the world?",
+  "text": "The longest river in the world is the Nile River.",
+  "search": [],
+  "outcome": "right",
+  "words": 10,
+  "seconds": 0.87,
+  "prompt_n": 186,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a020",
+  "kind": "know",
+  "say": "How many bones are in the adult human body?",
+  "text": "The adult human body has 206 bones.",
+  "search": [],
+  "outcome": "right",
+  "words": 7,
+  "seconds": 0.75,
+  "prompt_n": 187,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a021",
+  "kind": "know",
+  "say": "What's the square root of 144?",
+  "text": "The square root of 144 is 12.",
+  "search": [],
+  "outcome": "right",
+  "words": 7,
+  "seconds": 0.82,
+  "prompt_n": 186,
+  "predicted_n": 11,
+  "decode_tok_s": 13.5,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a022",
+  "kind": "know",
+  "say": "Who wrote Romeo and Juliet?",
+  "text": "William Shakespeare wrote Romeo and Juliet.",
+  "search": [],
+  "outcome": "right",
+  "words": 6,
+  "seconds": 0.64,
+  "prompt_n": 183,
+  "predicted_n": 8,
+  "decode_tok_s": 12.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a023",
+  "kind": "know",
+  "say": "Roughly how fast does light travel?",
+  "text": "Light travels about 299,792 kilometers (186,282 miles) every second in a vacuum.",
+  "search": [],
+  "outcome": "right",
+  "words": 12,
+  "seconds": 1.4,
+  "prompt_n": 186,
+  "predicted_n": 21,
+  "decode_tok_s": 15.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a024",
+  "kind": "know",
+  "say": "What's the capital of Canada?",
+  "text": "The capital of Canada is Ottawa.",
+  "search": [],
+  "outcome": "right",
+  "words": 6,
+  "seconds": 0.64,
+  "prompt_n": 184,
+  "predicted_n": 8,
+  "decode_tok_s": 12.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a025",
+  "kind": "know",
+  "say": "How many minutes are in a day?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how many minutes are in a day\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.87,
+  "prompt_n": 185,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a026",
+  "kind": "know",
+  "say": "What gas do plants take in from the air?",
+  "text": "Plants take in carbon dioxide (CO\u2082) from the air through tiny pores in their leaves called stomata.",
+  "search": [],
+  "outcome": "right",
+  "words": 17,
+  "seconds": 1.57,
+  "prompt_n": 187,
+  "predicted_n": 24,
+  "decode_tok_s": 15.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a027",
+  "kind": "know",
+  "say": "Who was the first president of the United States?",
+  "text": "",
+  "search": [
+   "{\"query\": \"first president of the United States\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.81,
+  "prompt_n": 187,
+  "predicted_n": 11,
+  "decode_tok_s": 13.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a028",
+  "kind": "know",
+  "say": "What's the hardest natural substance?",
+  "text": "Web_search(\"hardest natural substance\")",
+  "search": [],
+  "outcome": "wrong",
+  "words": 3,
+  "seconds": 0.69,
+  "prompt_n": 184,
+  "predicted_n": 9,
+  "decode_tok_s": 13.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a029",
+  "kind": "know",
+  "say": "How many continents are there?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how many continents are there\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.75,
+  "prompt_n": 183,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a030",
+  "kind": "know",
+  "say": "What year did the Titanic sink?",
+  "text": "",
+  "search": [
+   "{\"query\": \"Titanic sinking year\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.7,
+  "prompt_n": 184,
+  "predicted_n": 9,
+  "decode_tok_s": 12.9,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a031",
+  "kind": "howto",
+  "say": "How do I hard boil an egg?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to hard boil an egg\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.81,
+  "prompt_n": 185,
+  "predicted_n": 11,
+  "decode_tok_s": 13.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a032",
+  "kind": "howto",
+  "say": "How do I get a red wine stain out of a shirt?",
+  "text": "Web_search(\"how to remove red wine stain from shirt\")",
+  "search": [],
+  "outcome": "wrong",
+  "words": 8,
+  "seconds": 0.93,
+  "prompt_n": 190,
+  "predicted_n": 13,
+  "decode_tok_s": 13.9,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a033",
+  "kind": "howto",
+  "say": "How do I unclog a drain without chemicals?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to unclog a drain without chemicals\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.93,
+  "prompt_n": 187,
+  "predicted_n": 13,
+  "decode_tok_s": 14.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a034",
+  "kind": "howto",
+  "say": "How long should I cook spaghetti?",
+  "text": "Web_search(\"how long to cook spaghetti\")",
+  "search": [],
+  "outcome": "wrong",
+  "words": 5,
+  "seconds": 0.75,
+  "prompt_n": 184,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a035",
+  "kind": "howto",
+  "say": "What's a good way to fall asleep faster?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to fall asleep faster\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.75,
+  "prompt_n": 187,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a036",
+  "kind": "howto",
+  "say": "How do I jump start a car?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to jump start a car\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.81,
+  "prompt_n": 185,
+  "predicted_n": 11,
+  "decode_tok_s": 13.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a037",
+  "kind": "howto",
+  "say": "How do I convert Celsius to Fahrenheit?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to convert Celsius to Fahrenheit\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.82,
+  "prompt_n": 185,
+  "predicted_n": 11,
+  "decode_tok_s": 13.4,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a038",
+  "kind": "howto",
+  "say": "How often should I water a cactus?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how often to water cactus\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.81,
+  "prompt_n": 186,
+  "predicted_n": 11,
+  "decode_tok_s": 13.5,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a039",
+  "kind": "howto",
+  "say": "How do I take a screenshot on an Android phone?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to take a screenshot on an Android phone\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.99,
+  "prompt_n": 188,
+  "predicted_n": 14,
+  "decode_tok_s": 14.2,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a040",
+  "kind": "howto",
+  "say": "How do I cook rice on the stove?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to cook rice on the stove\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.87,
+  "prompt_n": 186,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a041",
+  "kind": "howto",
+  "say": "What should I do if I burn my finger on the stove?",
+  "text": "",
+  "search": [
+   "{\"query\": \"what to do if you burn your finger on the stove\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 1.1,
+  "prompt_n": 190,
+  "predicted_n": 16,
+  "decode_tok_s": 14.5,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a042",
+  "kind": "howto",
+  "say": "How do I clean a cast iron pan?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to clean a cast iron pan\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.87,
+  "prompt_n": 186,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a043",
+  "kind": "howto",
+  "say": "How do I get rid of hiccups?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to get rid of hiccups\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.93,
+  "prompt_n": 187,
+  "predicted_n": 13,
+  "decode_tok_s": 14.1,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a044",
+  "kind": "howto",
+  "say": "How can I make my phone battery last longer?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to make phone battery last longer\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.87,
+  "prompt_n": 187,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a045",
+  "kind": "howto",
+  "say": "How do I get a stripped screw out?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to remove stripped screws\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.75,
+  "prompt_n": 186,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a046",
+  "kind": "howto",
+  "say": "How long should a steak rest after cooking?",
+  "text": "Web_search(\"how long should a steak rest after cooking\")",
+  "search": [],
+  "outcome": "wrong",
+  "words": 8,
+  "seconds": 0.93,
+  "prompt_n": 186,
+  "predicted_n": 13,
+  "decode_tok_s": 14.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a047",
+  "kind": "howto",
+  "say": "How do I work out a 20 percent tip?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to calculate a 20 percent tip\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.93,
+  "prompt_n": 188,
+  "predicted_n": 13,
+  "decode_tok_s": 14.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a048",
+  "kind": "howto",
+  "say": "How do I keep a cut avocado from turning brown?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to keep cut avocado from turning brown\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.93,
+  "prompt_n": 188,
+  "predicted_n": 13,
+  "decode_tok_s": 14.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a049",
+  "kind": "howto",
+  "say": "How do I reset a tripped breaker?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to reset a tripped breaker\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.87,
+  "prompt_n": 186,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a050",
+  "kind": "howto",
+  "say": "What's the safest way to thaw frozen chicken?",
+  "text": "Web_search(\"safest way to thaw frozen chicken\")",
+  "search": [],
+  "outcome": "wrong",
+  "words": 6,
+  "seconds": 0.93,
+  "prompt_n": 187,
+  "predicted_n": 13,
+  "decode_tok_s": 14.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a051",
+  "kind": "fresh",
+  "say": "What's the weather tomorrow?",
+  "text": "",
+  "search": [
+   "{\"query\": \"weather tomorrow\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.58,
+  "prompt_n": 183,
+  "predicted_n": 7,
+  "decode_tok_s": 12.1,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a052",
+  "kind": "fresh",
+  "say": "Who won the Bears game last night?",
+  "text": "",
+  "search": [
+   "{\"query\": \"who won the Bears game last night\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.87,
+  "prompt_n": 185,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a053",
+  "kind": "fresh",
+  "say": "What's the price of Bitcoin right now?",
+  "text": "",
+  "search": [
+   "{\"query\": \"price of Bitcoin\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.64,
+  "prompt_n": 186,
+  "predicted_n": 8,
+  "decode_tok_s": 12.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a054",
+  "kind": "fresh",
+  "say": "What time does Home Depot close today?",
+  "text": "",
+  "search": [
+   "{\"query\": \"Home Depot closing time\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.7,
+  "prompt_n": 185,
+  "predicted_n": 9,
+  "decode_tok_s": 12.9,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a055",
+  "kind": "fresh",
+  "say": "What's the latest news about NASA?",
+  "text": "",
+  "search": [
+   "{\"query\": \"latest news about NASA\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.69,
+  "prompt_n": 185,
+  "predicted_n": 9,
+  "decode_tok_s": 13.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a056",
+  "kind": "fresh",
+  "say": "Is traffic bad on the highway right now?",
+  "text": "",
+  "search": [
+   "{\"query\": \"traffic on highway right now\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.75,
+  "prompt_n": 186,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a057",
+  "kind": "fresh",
+  "say": "What movies are playing tonight?",
+  "text": "",
+  "search": [
+   "{\"query\": \"movies playing tonight\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.64,
+  "prompt_n": 183,
+  "predicted_n": 8,
+  "decode_tok_s": 12.5,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a058",
+  "kind": "fresh",
+  "say": "What's Nvidia's stock price?",
+  "text": "",
+  "search": [
+   "{\"query\": \"Nvidia stock price\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.69,
+  "prompt_n": 184,
+  "predicted_n": 9,
+  "decode_tok_s": 13.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a059",
+  "kind": "fresh",
+  "say": "When does the next iPhone come out?",
+  "text": "",
+  "search": [
+   "{\"query\": \"next iPhone release date\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.69,
+  "prompt_n": 185,
+  "predicted_n": 9,
+  "decode_tok_s": 13.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a060",
+  "kind": "fresh",
+  "say": "What's the exchange rate from dollars to euros today?",
+  "text": "",
+  "search": [
+   "{\"query\": \"exchange rate from dollars to euros today\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.87,
+  "prompt_n": 188,
+  "predicted_n": 12,
+  "decode_tok_s": 13.7,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a061",
+  "kind": "fresh",
+  "say": "Is it going to snow this weekend?",
+  "text": "",
+  "search": [
+   "{\"query\": \"weather forecast for this weekend\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.75,
+  "prompt_n": 185,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a062",
+  "kind": "fresh",
+  "say": "What's in the news today?",
+  "text": "",
+  "search": [
+   "{\"query\": \"what's in the news today\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.81,
+  "prompt_n": 184,
+  "predicted_n": 11,
+  "decode_tok_s": 13.5,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a063",
+  "kind": "fresh",
+  "say": "Who's leading the NFL MVP race this year?",
+  "text": "",
+  "search": [
+   "{\"query\": \"NFL MVP race 2024\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.81,
+  "prompt_n": 187,
+  "predicted_n": 11,
+  "decode_tok_s": 13.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a064",
+  "kind": "fresh",
+  "say": "Are there any storms coming this week?",
+  "text": "",
+  "search": [
+   "{\"query\": \"weather forecast for this week\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.75,
+  "prompt_n": 185,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a065",
+  "kind": "fresh",
+  "say": "What are gas prices near me?",
+  "text": "",
+  "search": [
+   "{\"query\": \"gas prices near me\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.7,
+  "prompt_n": 184,
+  "predicted_n": 9,
+  "decode_tok_s": 13.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a066",
+  "kind": "fresh",
+  "say": "Did the new Zelda game come out yet?",
+  "text": "",
+  "search": [
+   "{\"query\": \"new Zelda game release date\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.75,
+  "prompt_n": 186,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a067",
+  "kind": "fresh",
+  "say": "How much is a PS5 right now?",
+  "text": "",
+  "search": [
+   "{\"query\": \"PS5 price current\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.7,
+  "prompt_n": 186,
+  "predicted_n": 9,
+  "decode_tok_s": 13.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a068",
+  "kind": "fresh",
+  "say": "What's the score of the Cubs game?",
+  "text": "",
+  "search": [
+   "{\"query\": \"Cubs game score\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.69,
+  "prompt_n": 186,
+  "predicted_n": 9,
+  "decode_tok_s": 13.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a069",
+  "kind": "fresh",
+  "say": "What time is sunset today?",
+  "text": "",
+  "search": [
+   "{\"query\": \"what time is sunset today\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.75,
+  "prompt_n": 183,
+  "predicted_n": 10,
+  "decode_tok_s": 13.4,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a070",
+  "kind": "fresh",
+  "say": "What's the newest version of Android?",
+  "text": "",
+  "search": [
+   "{\"query\": \"newest version of Android\"}"
+  ],
+  "outcome": "right",
+  "words": 0,
+  "seconds": 0.75,
+  "prompt_n": 185,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a071",
+  "kind": "result",
+  "say": "What's the weather tomorrow?",
+  "text": "The weather tomorrow is mostly sunny with a high of 64\u00b0F and a low of 47\u00b0F. Winds are from the northwest at 10 mph, and there is a 10% chance of rain.",
+  "search": [],
+  "outcome": "right",
+  "words": 32,
+  "seconds": 2.68,
+  "prompt_n": 237,
+  "predicted_n": 43,
+  "decode_tok_s": 16.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a072",
+  "kind": "result",
+  "say": "Who won the Bears game last night?",
+  "text": "Caleb Williams threw for 298 yards and two touchdowns.",
+  "search": [],
+  "outcome": "wrong",
+  "words": 9,
+  "seconds": 0.94,
+  "prompt_n": 231,
+  "predicted_n": 13,
+  "decode_tok_s": 13.9,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a073",
+  "kind": "result",
+  "say": "What time does Home Depot close today?",
+  "text": "The Home Depot, Elmhurst IL. Open today 6:00 AM to 9:00 PM.",
+  "search": [],
+  "outcome": "right",
+  "words": 12,
+  "seconds": 1.58,
+  "prompt_n": 229,
+  "predicted_n": 24,
+  "decode_tok_s": 15.2,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a074",
+  "kind": "result",
+  "say": "What's the price of Bitcoin right now?",
+  "text": "The current price of Bitcoin is $68,412.37 USD, up 1.8% in the last 24 hours.",
+  "search": [],
+  "outcome": "right",
+  "words": 15,
+  "seconds": 1.81,
+  "prompt_n": 230,
+  "predicted_n": 28,
+  "decode_tok_s": 15.5,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a075",
+  "kind": "result",
+  "say": "How much is a PS5 right now?",
+  "text": "PlayStation 5 Slim Digital Edition: $449.99 at Best Buy (sale ends Sunday). Regular price $499.99.",
+  "search": [],
+  "outcome": "right",
+  "words": 15,
+  "seconds": 1.8,
+  "prompt_n": 233,
+  "predicted_n": 28,
+  "decode_tok_s": 15.5,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a076",
+  "kind": "result",
+  "say": "What movies are playing tonight?",
+  "text": "AMC Yorktown 17 is showing The Long Walk Home at 7:10, Starfall at 6:30, and Paper Kites at 7:45 tonight.",
+  "search": [],
+  "outcome": "right",
+  "words": 20,
+  "seconds": 2.39,
+  "prompt_n": 245,
+  "predicted_n": 38,
+  "decode_tok_s": 15.9,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a077",
+  "kind": "result",
+  "say": "Is it going to snow this weekend?",
+  "text": "No snow expected this weekend.",
+  "search": [],
+  "outcome": "right",
+  "words": 5,
+  "seconds": 0.59,
+  "prompt_n": 229,
+  "predicted_n": 7,
+  "decode_tok_s": 12.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a078",
+  "kind": "result",
+  "say": "What's the exchange rate from dollars to euros today?",
+  "text": "The exchange rate is 0.9214 euros per dollar.",
+  "search": [],
+  "outcome": "right",
+  "words": 8,
+  "seconds": 1.0,
+  "prompt_n": 229,
+  "predicted_n": 14,
+  "decode_tok_s": 14.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a079",
+  "kind": "result",
+  "say": "What are gas prices near me?",
+  "text": "I'm sorry, but I can't provide real-time gas price information. I can only search the web for you.",
+  "search": [],
+  "outcome": "declined",
+  "words": 18,
+  "seconds": 1.64,
+  "prompt_n": 241,
+  "predicted_n": 25,
+  "decode_tok_s": 15.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a080",
+  "kind": "result",
+  "say": "What's the phone number for Luigi's Pizza?",
+  "text": "Luigi's Pizzeria, 1420 W Roosevelt Rd. Phone (630) 555-0148. Open until 10 PM.",
+  "search": [],
+  "outcome": "right",
+  "words": 13,
+  "seconds": 1.98,
+  "prompt_n": 240,
+  "predicted_n": 31,
+  "decode_tok_s": 15.7,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a081",
+  "kind": "result",
+  "say": "How long is the drive to Milwaukee?",
+  "text": "",
+  "search": [
+   "{\"query\": \"Milwaukee drive time\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.71,
+  "prompt_n": 225,
+  "predicted_n": 9,
+  "decode_tok_s": 12.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a082",
+  "kind": "result",
+  "say": "What's the score of the Cubs game?",
+  "text": "The Cubs are leading the Cardinals 4 to 2 in the bottom of the 7th inning.",
+  "search": [],
+  "outcome": "right",
+  "words": 16,
+  "seconds": 1.46,
+  "prompt_n": 221,
+  "predicted_n": 22,
+  "decode_tok_s": 15.1,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a083",
+  "kind": "result",
+  "say": "What's the air quality today?",
+  "text": "The air quality today is 42, which is considered good. The main pollutant is PM2.5.",
+  "search": [],
+  "outcome": "right",
+  "words": 15,
+  "seconds": 1.57,
+  "prompt_n": 221,
+  "predicted_n": 24,
+  "decode_tok_s": 15.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a084",
+  "kind": "result",
+  "say": "Who's playing at the Riverside Theater this weekend?",
+  "text": "The Lumineers are playing at the Riverside Theater on Saturday at 8 PM. Ellie Park is performing on Sunday at 7 PM.",
+  "search": [],
+  "outcome": "right",
+  "words": 22,
+  "seconds": 1.87,
+  "prompt_n": 236,
+  "predicted_n": 29,
+  "decode_tok_s": 15.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a085",
+  "kind": "result",
+  "say": "When does the library close today?",
+  "text": "Elmhurst Public Library closes at 8:00 PM today.",
+  "search": [],
+  "outcome": "right",
+  "words": 8,
+  "seconds": 1.05,
+  "prompt_n": 224,
+  "predicted_n": 15,
+  "decode_tok_s": 14.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a086",
+  "kind": "result",
+  "say": "What's the newest version of Android?",
+  "text": "Android 17 is the latest stable release, rolling out to Pixel phones since June 2026.",
+  "search": [],
+  "outcome": "right",
+  "words": 15,
+  "seconds": 1.4,
+  "prompt_n": 225,
+  "predicted_n": 21,
+  "decode_tok_s": 15.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a087",
+  "kind": "result",
+  "say": "Is the post office open on Monday?",
+  "text": "Post offices are closed on Monday, October 12, which is Columbus Day or Indigenous Peoples' Day, a federal holiday.",
+  "search": [],
+  "outcome": "right",
+  "words": 19,
+  "seconds": 1.69,
+  "prompt_n": 236,
+  "predicted_n": 26,
+  "decode_tok_s": 15.4,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a088",
+  "kind": "result",
+  "say": "How much does the new Pixel cost?",
+  "text": "The new Pixel 11 starts at $799 and the Pixel 11 Pro starts at $999.",
+  "search": [],
+  "outcome": "right",
+  "words": 15,
+  "seconds": 1.4,
+  "prompt_n": 222,
+  "predicted_n": 21,
+  "decode_tok_s": 15.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a089",
+  "kind": "result",
+  "say": "What's the latest news about NASA?",
+  "text": "NASA's Artemis III crew completed its final dress rehearsal at Kennedy Space Center on Monday, with the launch window opening next month.",
+  "search": [],
+  "outcome": "right",
+  "words": 22,
+  "seconds": 1.74,
+  "prompt_n": 231,
+  "predicted_n": 27,
+  "decode_tok_s": 15.5,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a090",
+  "kind": "result",
+  "say": "What time is sunset today?",
+  "text": "Sunset today in Elmhurst, IL is at 6:14 PM.",
+  "search": [],
+  "outcome": "right",
+  "words": 9,
+  "seconds": 1.23,
+  "prompt_n": 229,
+  "predicted_n": 18,
+  "decode_tok_s": 14.7,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a091",
+  "kind": "followup",
+  "say": "How old was she when she wrote it?",
+  "text": "Mary Shelley was 18 when she wrote Frankenstein.",
+  "search": [],
+  "outcome": "right",
+  "words": 8,
+  "seconds": 0.88,
+  "prompt_n": 215,
+  "predicted_n": 12,
+  "decode_tok_s": 13.7,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a092",
+  "kind": "followup",
+  "say": "How many people live there?",
+  "text": "Tokyo has about 13 million people.",
+  "search": [],
+  "outcome": "right",
+  "words": 6,
+  "seconds": 0.76,
+  "prompt_n": 203,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a093",
+  "kind": "followup",
+  "say": "What else did he paint?",
+  "text": "He painted the Last Supper, the Vitruvian Man, and the Annunciation.",
+  "search": [],
+  "outcome": "right",
+  "words": 11,
+  "seconds": 1.34,
+  "prompt_n": 204,
+  "predicted_n": 20,
+  "decode_tok_s": 14.9,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a094",
+  "kind": "followup",
+  "say": "What about soft boiled?",
+  "text": "Bring water to a boil, simmer 4 to 5 minutes, then drain and run under cold water.",
+  "search": [],
+  "outcome": "right",
+  "words": 17,
+  "seconds": 1.52,
+  "prompt_n": 228,
+  "predicted_n": 23,
+  "decode_tok_s": 15.2,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a095",
+  "kind": "followup",
+  "say": "Where is it?",
+  "text": "Mount Everest is on the border between Nepal and Tibet, China.",
+  "search": [],
+  "outcome": "right",
+  "words": 11,
+  "seconds": 0.99,
+  "prompt_n": 211,
+  "predicted_n": 14,
+  "decode_tok_s": 14.1,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a096",
+  "kind": "followup",
+  "say": "Who went with him?",
+  "text": "Buzz Aldrin.",
+  "search": [],
+  "outcome": "right",
+  "words": 2,
+  "seconds": 0.47,
+  "prompt_n": 210,
+  "predicted_n": 5,
+  "decode_tok_s": 10.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a097",
+  "kind": "followup",
+  "say": "What about eggs in baking?",
+  "text": "Use 1/4 cup of plain yogurt or 1/4 cup of sour cream for a similar texture and tangy flavor.",
+  "search": [],
+  "outcome": "right",
+  "words": 19,
+  "seconds": 1.81,
+  "prompt_n": 225,
+  "predicted_n": 28,
+  "decode_tok_s": 15.5,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a098",
+  "kind": "followup",
+  "say": "And the sun?",
+  "text": "About 93 million miles away.",
+  "search": [],
+  "outcome": "right",
+  "words": 5,
+  "seconds": 0.64,
+  "prompt_n": 207,
+  "predicted_n": 8,
+  "decode_tok_s": 12.5,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a099",
+  "kind": "followup",
+  "say": "When was he born?",
+  "text": "William Shakespeare was born on April 23, 1564.",
+  "search": [],
+  "outcome": "right",
+  "words": 8,
+  "seconds": 0.99,
+  "prompt_n": 201,
+  "predicted_n": 14,
+  "decode_tok_s": 14.1,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a100",
+  "kind": "followup",
+  "say": "Is it bigger than Saturn?",
+  "text": "Yes. Jupiter is about 11 times more massive than Saturn.",
+  "search": [],
+  "outcome": "right",
+  "words": 10,
+  "seconds": 0.99,
+  "prompt_n": 202,
+  "predicted_n": 14,
+  "decode_tok_s": 14.2,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a101",
+  "kind": "followup",
+  "say": "Is it different in Denver?",
+  "text": "Denver's atmospheric pressure is about 10 percent higher than sea level, so water boils at about 207 degrees Fahrenheit, or 97 Celsius.",
+  "search": [],
+  "outcome": "wrong",
+  "words": 22,
+  "seconds": 1.92,
+  "prompt_n": 214,
+  "predicted_n": 30,
+  "decode_tok_s": 15.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a102",
+  "kind": "followup",
+  "say": "What year?",
+  "text": "Edison's first commercially successful incandescent lamp was introduced in 1879.",
+  "search": [],
+  "outcome": "right",
+  "words": 10,
+  "seconds": 1.22,
+  "prompt_n": 212,
+  "predicted_n": 18,
+  "decode_tok_s": 14.7,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a103",
+  "kind": "followup",
+  "say": "What province is it in?",
+  "text": "Ontario.",
+  "search": [],
+  "outcome": "right",
+  "words": 1,
+  "seconds": 0.41,
+  "prompt_n": 204,
+  "predicted_n": 4,
+  "decode_tok_s": 9.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a104",
+  "kind": "followup",
+  "say": "And in a quart?",
+  "text": "Two cups, or 16 fluid ounces.",
+  "search": [],
+  "outcome": "wrong",
+  "words": 6,
+  "seconds": 0.76,
+  "prompt_n": 204,
+  "predicted_n": 10,
+  "decode_tok_s": 13.2,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a105",
+  "kind": "followup",
+  "say": "How many books are in the series?",
+  "text": "The Harry Potter series consists of seven books.",
+  "search": [],
+  "outcome": "right",
+  "words": 8,
+  "seconds": 0.76,
+  "prompt_n": 207,
+  "predicted_n": 10,
+  "decode_tok_s": 13.2,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a106",
+  "kind": "personal",
+  "say": "What's my sister's birthday?",
+  "text": "",
+  "search": [
+   "{\"query\": \"sister's birthday\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.7,
+  "prompt_n": 184,
+  "predicted_n": 9,
+  "decode_tok_s": 12.9,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a107",
+  "kind": "personal",
+  "say": "Where did I park my car?",
+  "text": "",
+  "search": [
+   "{\"query\": \"where did I park my car\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.81,
+  "prompt_n": 184,
+  "predicted_n": 11,
+  "decode_tok_s": 13.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a108",
+  "kind": "personal",
+  "say": "What's my doctor's phone number?",
+  "text": "",
+  "search": [
+   "{\"query\": \"doctor's phone number\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.69,
+  "prompt_n": 185,
+  "predicted_n": 9,
+  "decode_tok_s": 13.0,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a109",
+  "kind": "personal",
+  "say": "What did I have for lunch yesterday?",
+  "text": "",
+  "search": [
+   "{\"query\": \"what did you have for lunch yesterday\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.87,
+  "prompt_n": 185,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a110",
+  "kind": "personal",
+  "say": "What's my wifi password?",
+  "text": "",
+  "search": [
+   "{\"query\": \"what is my wifi password\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.76,
+  "prompt_n": 183,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a111",
+  "kind": "personal",
+  "say": "How much money is in my bank account?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how to check my bank account balance\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.87,
+  "prompt_n": 186,
+  "predicted_n": 12,
+  "decode_tok_s": 13.8,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a112",
+  "kind": "personal",
+  "say": "What's my dog's name?",
+  "text": "",
+  "search": [
+   "{\"query\": \"dog name search\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.64,
+  "prompt_n": 184,
+  "predicted_n": 8,
+  "decode_tok_s": 12.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a113",
+  "kind": "personal",
+  "say": "What's my boss's email address?",
+  "text": "",
+  "search": [
+   "{\"query\": \"boss email address\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.64,
+  "prompt_n": 185,
+  "predicted_n": 8,
+  "decode_tok_s": 12.6,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a114",
+  "kind": "personal",
+  "say": "How old is my mom?",
+  "text": "",
+  "search": [
+   "{\"query\": \"how old is my mom\"}"
+  ],
+  "outcome": "searched",
+  "words": 0,
+  "seconds": 0.75,
+  "prompt_n": 183,
+  "predicted_n": 10,
+  "decode_tok_s": 13.3,
+  "reasoning_chars": 0
+ },
+ {
+  "id": "a115",
+  "kind": "personal",
+  "say": "What time did I wake up today?",
+  "text": "I don't have access to personal data like wake-up times. You can check your phone's clock or ask a voice assistant on your device.",
+  "search": [],
+  "outcome": "right",
+  "words": 24,
+  "seconds": 1.91,
+  "prompt_n": 185,
+  "predicted_n": 30,
+  "decode_tok_s": 15.7,
+  "reasoning_chars": 0
+ }
+]
